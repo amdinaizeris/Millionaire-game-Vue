@@ -1,0 +1,146 @@
+body {
+    margin: 0 auto;
+    height: 100%;
+    color: white;
+}
+
+.title {
+    text-align: center;
+    background-color: #333399;
+    padding-top:10px;
+    padding-bottom:10px;
+    height: 10vh;
+}
+
+#playButton {
+    margin-top: 20px;
+    padding: 25px 40px;
+}
+
+.background {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px black solid;
+    background: linear-gradient(to bottom right, #333399, #6b3399);
+    height: 90vh;
+}
+
+.game {
+    flex-direction: row;
+    align-items: stretch;
+}
+
+.money {
+    list-style: none;
+    display: flex;
+    flex-direction: column-reverse;
+    margin-right: 0.3em;
+}
+
+.bolder {
+    font-weight: bold;
+    color: #333399;
+    background-color: #db4a4a;
+}
+
+.fire {
+    color: goldenrod;
+}
+
+.left {
+    width: 88%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-right: 1px black dotted;
+}
+
+.right {
+    width: 12%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 15px;
+}
+
+.right p {
+    margin-left: 1.2em;
+    margin-bottom: 0;
+}
+
+.answerChoice {
+    list-style: none;
+    
+}
+
+.btnAdditional {
+    width: 90%;
+    min-height: 80px;
+    border: 1px rgb(180, 179, 179) solid;
+    background-color: #4a4adb;
+    color: rgb(180, 179, 179);
+}
+
+.btnSelected {
+    color: white;
+    background-color: #dba14a;
+}
+
+.btn span {
+    overflow-wrap: normal;
+    white-space: normal;
+    width: 100%;
+    font-weight: bolder;
+    font-size: 1.1em;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2em;
+}
+
+.gameButtons {
+    margin: 5px;
+}
+
+.questions {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px black solid;
+    margin: 5px 0 10px 0;
+}
+
+.question {
+    padding: 5px 5px;
+}
+
+.correctWindow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom right, rgb(72, 192, 88), rgb(34, 180, 54));
+    min-height: 90vh;
+}
+
+.correct {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro img {
+    max-width : 300px;
+    margin-bottom: 3em;
+}
+
+#output {
+    
+    /* position: relative; */
+}
